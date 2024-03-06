@@ -1,0 +1,39 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px;
+}
+/* .add-user-button {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-user-button:hover {
+    background-color: #0056b3;
+  } */
+ 
+  
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #2e2e4c;
+    /* background-color: #4c4c92; */
+    color: #dce7e7;
+    border-color: #a9bacd;
+    border-width: 1.5px
+  }
+  
+ .table tbody td {
+    background-color: #f3f4f8;
+    border-color: #a1bad7;
+    border-width: 1.5px;
+  }
+  
+  .table tbody td:hover {
+    background-color: #e7e6f2;
+  }
+   

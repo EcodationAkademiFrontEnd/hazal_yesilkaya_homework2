@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table } from 'reactstrap';
+
 const KnowledgeTable = ({ users }) => {
   if (users && users.length > 0) {
     return (

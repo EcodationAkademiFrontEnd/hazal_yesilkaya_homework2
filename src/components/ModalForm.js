@@ -6,21 +6,16 @@ const ModalForm = ({ isVisible, toggleModal, inputChange, inputSave }) => {
   const [showAlert, setShowAlert] = useState(false);
 
   const submit = () => {
-    // Değerleri al
     const firstName = document.getElementById('firstName').value;
     const lastName = document.getElementById('lastName').value;
     const username = document.getElementById('username').value;
-
-    // Gerekli alanların kontrolü
+    
     if (!firstName || !lastName || !username) {
       setAlertMessage('Please complete all fields.');
       setShowAlert(true);
       return;
     }
-
-    // inputSave işlevini çağır
     inputSave();
-    // Alert mesajını gizle
     setAlertMessage('');
     setShowAlert(false);
   };
